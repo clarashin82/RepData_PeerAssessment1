@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 First, read in the data and store the raw data into `dat` parameter.
 
 ```{r reading in data, echo = TRUE}
-setwd("~/Documents")
+setwd("~/Documents/PA1_template")
 dat <- read.csv("activity.csv")
 ```
 

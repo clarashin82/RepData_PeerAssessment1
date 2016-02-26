@@ -13,7 +13,7 @@ First, read in the data and store the raw data into `dat` parameter.
 
 
 ```r
-setwd("~/Documents")
+setwd("~/Documents/PA1_template")
 dat <- read.csv("activity.csv")
 ```
 
