@@ -13,7 +13,7 @@ First, read in the data and store the raw data into `dat` parameter.
 
 
 ```r
-setwd("~/Documents/PA1_template")
+setwd("C:/Users/Clara.Shin/Downloads/RepData_PeerAssessment1-master/RepData_PeerAssessment1-master")
 dat <- read.csv("activity.csv")
 ```
 

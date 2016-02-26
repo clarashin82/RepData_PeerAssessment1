@@ -5,7 +5,7 @@ date: "February 21, 2016"
 output: html_document
 ---
 
-```{r setup, include=FALSE, echo = TRUE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 First, read in the data and store the raw data into `dat` parameter.
 
 ```{r reading in data, echo = TRUE}
-setwd("~/Documents/PA1_template")
+setwd("C:/Users/Clara.Shin/Downloads/RepData_PeerAssessment1-master/RepData_PeerAssessment1-master")
 dat <- read.csv("activity.csv")
 ```
 
