@@ -1,3 +1,4 @@
+
 ---
 title: 'Repdata_Assignment: Course Project 1'
 author: "Clara Hyunyoung Shin"
@@ -14,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 First, read in the data and store the raw data into `dat` parameter.
 
 ```{r reading in data, echo = TRUE}
-setwd("C:/Users/Clara.Shin/Downloads/RepData_PeerAssessment1-master/RepData_PeerAssessment1-master")
+setwd("C:/Users/Clara.Shin/Downloads/RepData_PeerAssessment1-master/RepData_PeerAssessment1-master/RepData_PeerAssessment1")
 dat <- read.csv("activity.csv")
 ```
 
@@ -174,3 +175,4 @@ xyplot(avgsteps ~ interval| factor(day),
 ```
 
 On weekdays, we could see a more interesting pattern. In the weekends, the time series had less extreme values and seem to be more evenly. :) 
+
